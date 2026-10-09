@@ -1,0 +1,17 @@
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+crash.log
+crash.*.log
+*.tfplan
+
+# Credenciais do Kubernetes
+kubeconfig
+kubeconfig.*
+!*.example
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
